@@ -5,8 +5,8 @@ const countWordOccurrences: CountWordOccurrences = (sentence, word) => {
     const words = lowerCaseSentence.split(' ');
 
     const wordOccurrencesCount = words.filter((word:string) => word === lowerCaseWord).length
-    console.log(wordOccurrencesCount);
-   return 0
+   return wordOccurrencesCount
 };
 
-countWordOccurrences("I love typescript", "typescript");
+const wordCount = countWordOccurrences("I love typescript", "typescript");
+console.log(wordCount);
