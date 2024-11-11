@@ -1,4 +1,4 @@
-type SumArray = (value: number[]) => number;
+type SumArray = (param: number[]) => number;
 const sumArray: SumArray = (array) => {
     return array.reduce(
         (accumulator, currentValue) => accumulator + currentValue,
