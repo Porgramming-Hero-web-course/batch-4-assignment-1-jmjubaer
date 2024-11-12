@@ -8,5 +8,5 @@ const countWordOccurrences: CountWordOccurrences = (sentence, word) => {
    return wordOccurrencesCount
 };
 
-const wordCount = countWordOccurrences("I love typescript", "typescript");
-console.log(wordCount);
+const wordOccurrencesCount = countWordOccurrences("I love typescript", "typescript");
+console.log(wordOccurrencesCount);

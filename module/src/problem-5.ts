@@ -6,4 +6,4 @@ const getProperty: GetProperty = (object, propertyName) => {
 
 
 const person = { name: "Alice", age: 30 };
-console.log(getProperty(person, "name"));
+console.log(getProperty(person, "name")); // results is Alice
